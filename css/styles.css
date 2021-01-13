@@ -303,3 +303,30 @@ hr {
     margin-top: 11rem;
     border-radius: 1rem;
 }
+
+/***********************************************************
+********************ÉXITO FORMS*****************************/
+
+.title {
+    color: white;
+    font-size: 55px;
+}
+
+.download {
+    font-size: 16px;
+    color:rgb(197, 38, 38);
+    text-decoration: noen;
+}
+
+.download:hover {
+    color: rgb(197, 38, 38);
+    text-decoration: none;
+}
+
+#bg-epk {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 17rem;
+}
