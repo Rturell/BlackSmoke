@@ -68,7 +68,7 @@ html {
 }
 
 #bg-snake { 
-    padding-top: 4rem;
+    padding-top: 2rem;
     padding-bottom: 4rem;
     background-image: url(../img/vibora.jpg); 
     background-repeat: no-repeat;
@@ -277,6 +277,9 @@ hr {
     .disc1 { 
         height: 290px;
     }
+    .disc2 {
+         height: 290px;
+     }
     .footer { 
         text-align: center;
     }
