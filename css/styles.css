@@ -1,34 +1,34 @@
 html {
     scroll-behavior: smooth;
-  }
+}
 
-.index { 
-    margin-top: 55px; 
-    font-family: 'Playfair Display SC',;
+.index {
+    margin-top: 55px;
+    font-family: 'Playfair Display SC', ;
     background-color: #100F11;
     max-width: 100%;
     overflow-x: hidden;
 }
 
 .serif {
-     font-family: 'Playfair Display',
-     serif;
+    font-family: 'Playfair Display',
+        serif;
 }
 
 /***********************************************************
 ------------------------MENU-------------------------------*/
 
-.navbar-mio { 
-    background-color: rgb(16, 15, 17); 
+.navbar-mio {
+    background-color: rgb(16, 15, 17);
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
-.nav-link { 
+.nav-link {
     color: white;
     font-size: 1rem;
 }
 
-#logo-menu { 
+#logo-menu {
     max-width: 100px;
 }
 
@@ -37,7 +37,7 @@ html {
 --------------------DIV IMG-------------------------------*/
 
 
-#bg-img { 
+#bg-img {
     background-image: url(../img/imagenhome.jpg);
     background-size: cover;
     background-position: center;
@@ -46,12 +46,12 @@ html {
     padding-bottom: 17rem;
 }
 
-.logo-bio { 
+.logo-bio {
     margin-top: 5rem;
     margin-bottom: 2rem;
 }
 
-.text-bio { 
+.text-bio {
     max-width: 750px;
     margin: auto;
     color: white;
@@ -60,45 +60,47 @@ html {
 /***********************************************************
 ********************MUSIC**********************************/
 
-#bg-music { 
+#bg-music {
     background-color: white;
-    color: rgb(114, 113, 113); 
+    color: rgb(114, 113, 113);
     text-align: left;
     padding-top: 4rem;
 }
 
-#bg-snake { 
+#bg-snake {
     padding-top: 2rem;
     padding-bottom: 4rem;
-    background-image: url(../img/vibora.jpg); 
+    background-image: url(../img/vibora.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.disc1, .disc2 {
+.disc1,
+.disc2 {
     border: 10px solid white;
     --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 #0000),
-    var(--tw-shadow);
+        var(--tw-ring-shadow, 0 0 #0000),
+        var(--tw-shadow);
 }
 
 
-.title-album, .title-album2 { 
-    color:#1d1c21;
+.title-album,
+.title-album2 {
+    color: #1d1c21;
     font-size: 40px;
     font-family: 'Playfair Display', serif;
-    
+
 }
 
-.text-album { 
+.text-album {
     font-size: 1rem;
     line-height: 30px;
 }
 
-.credits { 
+.credits {
     font-size: 12.5px;
-    color:#1d1c21;
+    color: #1d1c21;
     margin-top: 1rem;
 }
 
@@ -106,14 +108,14 @@ html {
 /***********************************************************
 ********************PROXIMOS SHOWS*************************/
 
-#bg-shows { 
+#bg-shows {
     padding-top: 8rem;
     padding-bottom: 4rem;
     background-color: rgb(16, 15, 17);
     text-align: center;
 }
 
-.title-shows { 
+.title-shows {
     color: white;
     font-size: 40px;
     font-family: 'Playfair Display', serif;
@@ -124,13 +126,13 @@ html {
 /***********************************************************
 ********************MERCH**********************************/
 
-#tienda { 
+#tienda {
     padding-top: 4rem;
     padding-bottom: 4rem;
     background-color: white;
 }
 
-.title-merch { 
+.title-merch {
     padding-bottom: 1rem;
     font-size: 40px;
     font-family: 'Playfair Display', serif;
@@ -139,7 +141,7 @@ html {
 }
 
 .title-pasos {
-    color: #DC4E4D; 
+    color: #DC4E4D;
     margin-bottom: 1rem;
 }
 
@@ -149,26 +151,26 @@ html {
     padding: 3rem;
 }
 
-.btn-merch { 
+.btn-merch {
     background-color: #DC4E4D;
     border: none;
 }
 
-.btn-news:hover { 
-background-color: transparent;
-border: 1px solid #DC4E4D ;
-color: #DC4E4D;
+.btn-news:hover {
+    background-color: transparent;
+    border: 1px solid #DC4E4D;
+    color: #DC4E4D;
 }
 
-.stock { 
+.stock {
     color: green;
 }
 
-.out-stock { 
+.out-stock {
     color: red;
 }
 
-.card { 
+.card {
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
@@ -181,13 +183,14 @@ color: #DC4E4D;
 /***********************************************************
 ********************CONTACTO*******************************/
 
-#bg-contact { 
+#bg-contact {
     padding-top: 4rem;
     padding-bottom: 4rem;
-    background-color:rgb(16, 15, 17);
+    background-color: rgb(16, 15, 17);
     text-align: center;
 }
-.title-contact { 
+
+.title-contact {
     margin-bottom: 4rem;
     font-size: 40px;
     font-family: 'Playfair Display', serif;
@@ -196,8 +199,8 @@ color: #DC4E4D;
     text-align: center;
 }
 
-form { 
-    font-family: Arial, Helvetica, sans-serif; 
+form {
+    font-family: Arial, Helvetica, sans-serif;
     max-width: 700px;
     margin: auto;
 }
@@ -216,50 +219,56 @@ form {
 /***********************************************************
 ********************PIE************************************/
 
-.footer { 
-    background-color:rgb(24, 23, 26);
+.footer {
+    background-color: rgb(24, 23, 26);
     color: white;
 }
 
-.footer-copyright { 
+.footer-copyright {
     font-size: small;
-    background-color:rgb(0, 0, 0) ;
+    background-color: rgb(0, 0, 0);
 }
 
 /***********************************************************
 ********************BOTONES Y LINKS************************/
 
-a { 
-    color:rgb(114, 113, 113);
+a {
+    color: rgb(114, 113, 113);
     text-decoration: none;
 }
 
-#btn-tickets, .btn-mail{ 
+#btn-tickets,
+.btn-mail {
     background-color: transparent;
     border: white solid 1px;
     color: white;
-} 
+}
 
-#btn-tickets, .btn-news { 
-  width: 100%;
-} 
+#btn-tickets,
+.btn-news {
+    width: 100%;
+}
 
-#btn-tickets:hover, #btn-bio:hover, .btn-mail:hover, #btn-send:hover { 
+#btn-tickets:hover,
+#btn-bio:hover,
+.btn-mail:hover,
+#btn-send:hover {
     background-color: white;
     color: rgb(197, 38, 38);
     border: white solid 1px;
-} 
-
-hr { 
-    background-color: rgb(114, 113, 113); 
 }
 
-.a-redes { 
+hr {
+    background-color: rgb(114, 113, 113);
+}
+
+.a-redes {
     color: white;
 }
 
 
-.a-redes:hover, a:hover { 
+.a-redes:hover,
+a:hover {
     color: rgb(197, 38, 38);
 }
 
@@ -271,16 +280,20 @@ hr {
     #bg-img {
         height: 600px;
     }
+
     .logo-bio {
-        height:50px;
+        height: 50px;
     }
-    .disc1 { 
+
+    .disc1 {
         height: 290px;
     }
+
     .disc2 {
-         height: 290px;
-     }
-    .footer { 
+        height: 290px;
+    }
+
+    .footer {
         text-align: center;
     }
 }
@@ -288,7 +301,7 @@ hr {
 /***********************************************************
 ********************MODALS*********************************/
 
-.input-group-prepend { 
+.input-group-prepend {
     padding-bottom: 1rem;
 }
 
@@ -296,7 +309,7 @@ hr {
 /***********************************************************
 ********************COVID**********************************/
 
-#covid19 { 
+#covid19 {
     background-color: orange;
     padding: 1rem;
 }
@@ -306,7 +319,7 @@ hr {
 /***********************************************************
 ********************ÉXITO FORMS*****************************/
 
-#formulario { 
+#formulario {
     background-image: url(../img/imagenhome.jpg);
     background-size: cover;
     background-position: center;
@@ -315,7 +328,7 @@ hr {
     padding-bottom: 17rem;
 }
 
-.form-exito { 
+.form-exito {
     margin: auto;
     text-align: center;
     margin-top: 11rem;
@@ -332,7 +345,7 @@ hr {
 
 .download {
     font-size: 16px;
-    color:rgb(197, 38, 38);
+    color: rgb(197, 38, 38);
     text-decoration: noen;
 }
 
@@ -357,3 +370,28 @@ hr {
     padding-top: 2rem;
 
 }
+
+
+/***********************************************************
+********************PATREONS*******************************/
+
+#patreons {
+    padding: 5rem 0rem 5rem 0rem;
+    color: white;
+}
+
+#patreons h1 {
+    font-size: 50px;
+}
+
+
+
+#patreons a {
+    color: rgb(197, 38, 38);
+}
+
+#top_patreons {
+    padding: 4rem 0rem 4rem 0rem;
+    background-color: white;
+}
+

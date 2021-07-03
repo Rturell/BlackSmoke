@@ -1,14 +1,14 @@
 
 //////EFECTO LOGO MENÚ////
 
-$('#logo-menu').hide();
+$('.js-logo-menu').hide();
 
 $(window).scroll(function () {
     if ($(this).scrollTop() > 150) {
-        $('#logo-menu').fadeIn();
+        $('.js-logo-menu').fadeIn();
     }
     if ($(this).scrollTop() < 150) {
-        $('#logo-menu').fadeOut();
+        $('.js-logo-menu').fadeOut();
     }
 });
 
