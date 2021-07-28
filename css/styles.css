@@ -375,19 +375,38 @@ a:hover {
 /***********************************************************
 ********************PATREONS*******************************/
 
+
+body {
+    font-family: 'Libre Franklin',
+    sans-serif;
+}
+
 #patreons {
-    padding: 5rem 0rem 5rem 0rem;
+    padding: 4rem 0rem 5rem 0rem;
     color: white;
+    background-image: url(../img/katrina.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 #patreons h1 {
     font-size: 50px;
+    font-weight: 700;
+}
+
+#patreons p {
+    line-height: 1.5rem;
 }
 
 
-
 #patreons a {
-    color: rgb(197, 38, 38);
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+    background-color: #fac43d;
+    padding: 0.5rem;
+    text-decoration: none;
 }
 
 #top_patreons {
