@@ -373,6 +373,30 @@ a:hover {
 
 
 /***********************************************************
+********************PATREONS 1******************************/
+
+
+#patreons .card {
+    background-color: #fac43d;
+    color: black;
+    border-radius: 0px;
+    font-size: 14px;
+}
+
+
+
+#patreons li {
+    background-color: #fac43d;
+    color: black;
+}
+
+
+.tag {
+    background-color: black;
+}
+
+
+/***********************************************************
 ********************PATREONS*******************************/
 
 
