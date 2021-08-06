@@ -422,11 +422,9 @@ body {
 
 
 #patreons a {
-    font-size: 14px;
-    color: black;
+    font-size: 18px;
+    color: #fac43d;
     font-weight: 600;
-    background-color: #fac43d;
-    padding: 0.8rem;
     text-decoration: none;
 }
 
