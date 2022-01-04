@@ -154,6 +154,16 @@ html {
 .btn-merch {
     background-color: #DC4E4D;
     border: none;
+    border-radius: 0;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.btn-merch:hover {
+    background-color: black;
+    color: white;
 }
 
 .btn-news:hover {
@@ -264,6 +274,7 @@ hr {
 
 .a-redes {
     color: white;
+    padding-right: 10px;
 }
 
 
