@@ -30,17 +30,35 @@
     </link>
 
     <!-- ScrollReveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/scrollreveal" defer></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-53848737-1"></script>
-    <script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-53848737-1" defer></script>
+    <script defer>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'UA-53848737-1');
     </script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous" defer></script>
+
+    <!-- JS de Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"
+        defer></script>
+
+    <!-- JS de Bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"
+        defer></script>
+
+
+    <!-- JS Propio -->
+    <script src="js/app.js" defer></script>
 
 </head>
 
@@ -85,265 +103,286 @@
 
     <!-- DIV FOTO -->
 
-    <div id="bg-img">
-        <div class="container">
-            <div class="container"></div>
-            <h1><img class="logo-bio" src="img/Logo-Black-Smoke.png" alt="logo de Black Smoke"></h1>
-            <p class="text-bio">
-                Somos una banda de Hard Rock formada a mediados del 2014 por Rodrigo Turell y Andres Nion.
-                <br> Nos influencian bandas como Deep Purple, Rata Blanca, Whitesnake, Glenn Hughes,
-                Led Zeppelin, H.E.A.T y la lista queda corta. Editamos dos discos, hemos tocado en todo el
-                circuito montevideano, en varios departamentos del interior, teloneado a bandas de renombre como Rata
-                Blanca de Argentina y Mr. Big de EE.UU. y recientemente realizamos una gira por Chile que nos llevó a
-                ciudades como Iquique, Santiago de Chile, Valdivia y Temuco.
-            </p>
+    <section id="section-home">
+        <div id="bg-img">
+            <div class="container">
+                <div class="container"></div>
+                <h1><img class="logo-bio" src="img/Logo-Black-Smoke.png" alt="logo de Black Smoke"></h1>
+                <p class="text-bio">
+                    Somos una banda de Hard Rock formada a mediados del 2014 por Rodrigo Turell y Andres Nion.
+                    <br> Nos influencian bandas como Deep Purple, Rata Blanca, Whitesnake, Glenn Hughes,
+                    Led Zeppelin, H.E.A.T y la lista queda corta. Editamos dos discos, hemos tocado en todo el
+                    circuito montevideano, en varios departamentos del interior, teloneado a bandas de renombre como
+                    Rata
+                    Blanca de Argentina y Mr. Big de EE.UU. y recientemente realizamos una gira por Chile que nos llevó
+                    a
+                    ciudades como Iquique, Santiago de Chile, Valdivia y Temuco.
+                </p>
+
+            </div>
+
 
         </div>
+    </section>
 
-
-    </div>
 
     <!-- MUSICA -->
 
-    <div id="bg-music">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-6 mt-3 text-left">
-                    <a href="https://music.youtube.com/playlist?list=OLAK5uy_m38QbiX98v-q1YrFiWSabkKtMVY9xWdyQ"
-                        target="blank" rel="noopener noreferrer"><img class="disc1" src="img/disco.jpg"
-                            alt="arte de tapa Hasta el Final"></a>
-                </div>
-                <div class="col-xl-6 mt-3">
-                    <transition>
-                        <h2 class="title-album">Hasta el Final</h2>
-                    </transition>
-                    <hr>
-                    <p class="text-album">
-                        <a href="https://music.youtube.com/watch?v=2ioaUs5jrak&feature=share" target="blank">01. Tu
-                            Verdad</a> <br>
-                        <a href="https://music.youtube.com/watch?v=bbADNsCBWcc&feature=share" target="blank">02. Así
-                            Soy</a> <br>
-                        <a href="https://music.youtube.com/watch?v=PR7LyPxNKAM&feature=share" target="blank">03. En Mis
-                            Sueños</a> <br>
-                        <a href="https://music.youtube.com/watch?v=PBMcpXJtVCo&feature=share" target="blank">04. Hasta
-                            el Final</a> <br>
-                        <a href="https://music.youtube.com/watch?v=Dud0YEda_1I&feature=share" target="blank">05. Tu
-                            Canción</a> <br>
-                        <a href="https://music.youtube.com/watch?v=m_tcNoGmHjU&feature=share" target="blank">06.
-                            Desarmando la Ilusión</a> <br>
-                        <a href="https://music.youtube.com/watch?v=mXAV-EvPnts&feature=share" target="blank">07.
-                            Vivo</a> <br>
-                        <a href="https://music.youtube.com/watch?v=T0ncihMdelg&feature=share" target="blank">08. Cuando
-                            todo cae</a> <br>
-                    </p>
+    <section id="section-music">
+        <div id="bg-music">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 mt-3 text-left">
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_m38QbiX98v-q1YrFiWSabkKtMVY9xWdyQ"
+                            target="blank" rel="noopener noreferrer"><img class="disc1" src="img/disco.jpg"
+                                alt="arte de tapa Hasta el Final"></a>
+                    </div>
+                    <div class="col-xl-6 mt-3">
+                        <transition>
+                            <h2 class="title-album">Hasta el Final</h2>
+                        </transition>
+                        <hr>
+                        <p class="text-album">
+                            <a href="https://music.youtube.com/watch?v=2ioaUs5jrak&feature=share" target="blank">01. Tu
+                                Verdad</a> <br>
+                            <a href="https://music.youtube.com/watch?v=bbADNsCBWcc&feature=share" target="blank">02. Así
+                                Soy</a> <br>
+                            <a href="https://music.youtube.com/watch?v=PR7LyPxNKAM&feature=share" target="blank">03. En
+                                Mis
+                                Sueños</a> <br>
+                            <a href="https://music.youtube.com/watch?v=PBMcpXJtVCo&feature=share" target="blank">04.
+                                Hasta
+                                el Final</a> <br>
+                            <a href="https://music.youtube.com/watch?v=Dud0YEda_1I&feature=share" target="blank">05. Tu
+                                Canción</a> <br>
+                            <a href="https://music.youtube.com/watch?v=m_tcNoGmHjU&feature=share" target="blank">06.
+                                Desarmando la Ilusión</a> <br>
+                            <a href="https://music.youtube.com/watch?v=mXAV-EvPnts&feature=share" target="blank">07.
+                                Vivo</a> <br>
+                            <a href="https://music.youtube.com/watch?v=T0ncihMdelg&feature=share" target="blank">08.
+                                Cuando
+                                todo cae</a> <br>
+                        </p>
 
-                    <div class="icons">
-                        <a href="https://open.spotify.com/album/3FyCss5DogmeUGUbn97BE1" target="_blank"
-                            rel="noopener noreferrer"><i class="fab fa-spotify fa-fw"></i></a>
-                        <a href="https://music.apple.com/ni/album/hasta-el-final/1473987622" target="_blank"
-                            rel="noopener noreferrer"><i class="fab fa-apple fa-fw"></i></a>
-                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_mL3orhCNs7H758TPQTmuvW4n0k_g2jKWU"
-                            target="blank" rel="noopener noreferrer"><i class="fab fa-youtube fa-fw"></i></a>
-                        <a href="https://www.amazon.es/gp/product/B07VMDGDR3/ref=dm_ws_sp_ps_dp" target="_blank"
-                            rel="noopener noreferrer"><i class="fab fa-amazon fa-fw"></i></a>
-                        <a href="https://bsmoke.bandcamp.com/album/hasta-el-final" target="_blank"
-                            rel="noopener noreferrer"><i class="fab fa-bandcamp fa-fw"></i></a>
-                        <a href="https://play.google.com/store/music/artist?id=A3voexesggdo7tozzjxnj7hbzsa"
-                            target="_blank" rel="noopener noreferrer"><i class="fab fa-google-play fa-fw"></i></a>
+                        <div class="icons">
+                            <a href="https://open.spotify.com/album/3FyCss5DogmeUGUbn97BE1" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-spotify fa-fw"></i></a>
+                            <a href="https://music.apple.com/ni/album/hasta-el-final/1473987622" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-apple fa-fw"></i></a>
+                            <a href="https://music.youtube.com/playlist?list=OLAK5uy_mL3orhCNs7H758TPQTmuvW4n0k_g2jKWU"
+                                target="blank" rel="noopener noreferrer"><i class="fab fa-youtube fa-fw"></i></a>
+                            <a href="https://www.amazon.es/gp/product/B07VMDGDR3/ref=dm_ws_sp_ps_dp" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-amazon fa-fw"></i></a>
+                            <a href="https://bsmoke.bandcamp.com/album/hasta-el-final" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-bandcamp fa-fw"></i></a>
+                            <a href="https://play.google.com/store/music/artist?id=A3voexesggdo7tozzjxnj7hbzsa"
+                                target="_blank" rel="noopener noreferrer"><i class="fab fa-google-play fa-fw"></i></a>
+
+                        </div>
+
+                        <p class="credits">Todas las letras escritas por Rodrigo Turell Alayón. <br> Tema 1, 3, 6, 7 y 8
+                            compuesto por Rodrigo Turell Alayón y
+                            Andrés Nion Valanzano. <br> Tema 2, 4 y 5 compuesto por Rodrigo Turell Alayón. <br> Mezclado
+                            por Carlos Fonsalía (Santiago de Chile). Masterizado en La Nave de Oseberg por Martin Toledo
+                            (Buenos Aires, Argentina). Arte de tapa y diseño gráfico Rodrigo Turell Alayón.
+                        </p>
 
                     </div>
 
-                    <p class="credits">Todas las letras escritas por Rodrigo Turell Alayón. <br> Tema 1, 3, 6, 7 y 8
-                        compuesto por Rodrigo Turell Alayón y
-                        Andrés Nion Valanzano. <br> Tema 2, 4 y 5 compuesto por Rodrigo Turell Alayón. <br> Mezclado
-                        por Carlos Fonsalía (Santiago de Chile). Masterizado en La Nave de Oseberg por Martin Toledo
-                        (Buenos Aires, Argentina). Arte de tapa y diseño gráfico Rodrigo Turell Alayón.
-                    </p>
 
+                </div>
+            </div>
+        </div>
+
+        <div id="bg-snake">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 mt-3 mb-5 order-lg-2">
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_nVoWH8OxxRkgTI3vPJqDEZmgmvuo8Y7xc"
+                            target="_blank" rel="noopener noreferrer"><img class="disc2" src="img/Black Smoke.jpg"
+                                alt="Primer disco de Black Smoke - Black Smoke"></a>
+
+                    </div>
+                    <div class="col-xl-6 mb-2">
+                        <h2 class="title-album2">Black Smoke</h2>
+                        <hr class="bs-line">
+                        <p class="text-album">
+                            <a href="https://music.youtube.com/watch?v=6oGudjDsoGs&list=RDAMVM6oGudjDsoGs"
+                                target="blank">01.
+                                Inferno</a> <br>
+                            <a href="https://music.youtube.com/watch?v=FX20JR-ENDc&feature=share" target="blank">02.
+                                Tiempo
+                                de Perder</a> <br>
+                            <a href="https://music.youtube.com/watch?v=zBe20_jATow&feature=share" target="blank">03.
+                                Como
+                                ayer</a> <br>
+                            <a href="https://music.youtube.com/watch?v=f3T3Zfgu_7A&feature=share" target="blank">04. A
+                                tus
+                                pies</a> <br>
+                            <a href="https://music.youtube.com/watch?v=8lOxexsl8uU&feature=share" target="blank">05.
+                                Cerca
+                                del Final</a> <br>
+                            <a href="https://music.youtube.com/watch?v=CC-GioYF9gs&feature=share" target="blank">06.
+                                Renacer</a> <br>
+                        </p>
+                        <div class="icons">
+                            <a href="https://open.spotify.com/album/25cTFtOI1XZqHbgH7AVwem" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-spotify fa-fw"></i></a>
+                            <a href="https://music.apple.com/ni/album/black-smoke-ep/1072237464" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-apple fa-fw"></i></a>
+                            <a href="https://music.youtube.com/playlist?list=OLAK5uy_mupMCfbGmsrLxa6gubk2Awj6u7LCnhsgA"
+                                target="blank" rel="noopener noreferrer"><i class="fab fa-youtube fa-fw"></i></a>
+                            <a href="https://www.amazon.es/gp/product/B01B7I7N12/ref=dm_ws_sp_ps_dp" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-amazon fa-fw"></i></a>
+                            <a href="https://bsmoke.bandcamp.com/album/black-smoke" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-bandcamp fa-fw"></i></a>
+                            <a href="https://play.google.com/store/music/artist?id=A3voexesggdo7tozzjxnj7hbzsa"
+                                target="_blank" rel="noopener noreferrer"><i class="fab fa-google-play fa-fw"></i></a>
+                        </div>
+                        <p class="credits">Todas las letras escritas por Rodrigo Turell Alayón. <br>
+                            Tema 1, 2, 4 y 5 compuesto por Rodrigo Turell Alayón y Andrés Nion Valanzano. <br> Tema 3 y
+                            6
+                            compuestos por Rodrigo Turell Alayón. <br> Mezclado y masterizado por Carlos Fonsalía
+                            (Santiago
+                            de Chile). <br> Arte de tapa y diseño gráfico Rodrigo Turell
+                            Alayón y Kim Wilson.
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="mt-5 mt-lg-2">
+                    <h3 class="serif">Black Smoke es:</h3>
+                    <p class="text-album">
+                        Gonzalo Núñez - Voz <br>
+                        Andres Nion - Guitarra <br>
+                        Rodrigo Turell - Bajo <br>
+                    </p>
                 </div>
 
 
             </div>
         </div>
-    </div>
-
-    <div id="bg-snake">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-6 mt-3 mb-5 order-lg-2">
-                    <a href="https://music.youtube.com/playlist?list=OLAK5uy_nVoWH8OxxRkgTI3vPJqDEZmgmvuo8Y7xc"
-                        target="_blank" rel="noopener noreferrer"><img class="disc2" src="img/Black Smoke.png"
-                            alt="Primer disco de Black Smoke - Black Smoke"></a>
-
-                </div>
-                <div class="col-xl-6 mb-2">
-                    <h2 class="title-album2">Black Smoke</h2>
-                    <hr class="bs-line">
-                    <p class="text-album">
-                        <a href="https://music.youtube.com/watch?v=6oGudjDsoGs&list=RDAMVM6oGudjDsoGs"
-                            target="blank">01. Inferno</a> <br>
-                        <a href="https://music.youtube.com/watch?v=FX20JR-ENDc&feature=share" target="blank">02. Tiempo
-                            de Perder</a> <br>
-                        <a href="https://music.youtube.com/watch?v=zBe20_jATow&feature=share" target="blank">03. Como
-                            ayer</a> <br>
-                        <a href="https://music.youtube.com/watch?v=f3T3Zfgu_7A&feature=share" target="blank">04. A tus
-                            pies</a> <br>
-                        <a href="https://music.youtube.com/watch?v=8lOxexsl8uU&feature=share" target="blank">05. Cerca
-                            del Final</a> <br>
-                        <a href="https://music.youtube.com/watch?v=CC-GioYF9gs&feature=share" target="blank">06.
-                            Renacer</a> <br>
-                    </p>
-                    <div class="icons">
-                        <a href="https://open.spotify.com/album/25cTFtOI1XZqHbgH7AVwem" target="_blank"
-                            rel="noopener noreferrer"><i class="fab fa-spotify fa-fw"></i></a>
-                        <a href="https://music.apple.com/ni/album/black-smoke-ep/1072237464" target="_blank"
-                            rel="noopener noreferrer"><i class="fab fa-apple fa-fw"></i></a>
-                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_mupMCfbGmsrLxa6gubk2Awj6u7LCnhsgA"
-                            target="blank" rel="noopener noreferrer"><i class="fab fa-youtube fa-fw"></i></a>
-                        <a href="https://www.amazon.es/gp/product/B01B7I7N12/ref=dm_ws_sp_ps_dp" target="_blank"
-                            rel="noopener noreferrer"><i class="fab fa-amazon fa-fw"></i></a>
-                        <a href="https://bsmoke.bandcamp.com/album/black-smoke" target="_blank"
-                            rel="noopener noreferrer"><i class="fab fa-bandcamp fa-fw"></i></a>
-                        <a href="https://play.google.com/store/music/artist?id=A3voexesggdo7tozzjxnj7hbzsa"
-                            target="_blank" rel="noopener noreferrer"><i class="fab fa-google-play fa-fw"></i></a>
-                    </div>
-                    <p class="credits">Todas las letras escritas por Rodrigo Turell Alayón. <br>
-                        Tema 1, 2, 4 y 5 compuesto por Rodrigo Turell Alayón y Andrés Nion Valanzano. <br> Tema 3 y 6
-                        compuestos por Rodrigo Turell Alayón. <br> Mezclado y masterizado por Carlos Fonsalía (Santiago
-                        de Chile). <br> Arte de tapa y diseño gráfico Rodrigo Turell
-                        Alayón y Kim Wilson.
-                    </p>
-
-                </div>
-            </div>
-
-            <div class="mt-5 mt-lg-2">
-                <h3 class="serif">Black Smoke es:</h3>
-                <p class="text-album">
-                    Gonzalo Núñez - Voz <br>
-                    Andres Nion - Guitarra <br>
-                    Rodrigo Turell - Bajo <br>
-                </p>
-            </div>
-
-
-        </div>
-    </div>
+    </section>
 
     <!-- PROXIMOS SHOWS -->
 
-    <div id="bg-shows">
-        <div class="container">
-            <h2 class="title-shows">PRÓXIMOS SHOWS</h2>
-            <script charset="utf-8" src="https://widget.bandsintown.com/main.min.js"></script><a
-                class="bit-widget-initializer" data-artist-name="Black Smoke" data-display-local-dates="false"
-                data-display-past-dates="true" data-auto-style="false" data-text-color="#FFFFFF"
-                data-link-color="#DC4E4D" data-background-color="rgba(0,0,0,0)" data-display-limit="15"
-                data-display-start-time="false" data-link-text-color="#FFFFFF" data-display-lineup="false"
-                data-display-play-my-city="true" data-separator-color="rgba(124,124,124,0.25)"></a>
-        </div>
-
-    </div>
+    <section id="section-shows">
+        <div id="bg-shows">
+            <div class="container">
+                <h2 class="title-shows">PRÓXIMOS SHOWS</h2>
+                <script charset="utf-8" src="https://widget.bandsintown.com/main.min.js"></script>
+                <a class="bit-widget-initializer" data-artist-name="id_1809032" data-font="Helvetica" data-language="es"
+                    data-display-details="false" data-text-color="rgba(255,255,255,1)"
+                    data-background-color="rgba(16,15,17,1)" data-separator-color="rgba(255,255,255,1)"
+                    data-popup-background-color="rgba(255,255,255,1)" data-link-color="rgba(116,157,228,1)"
+                    data-link-text-color="rgba(5,0,0,1)">
+                </a>
+            </div>
+    </section>
 
     <!-- MERCH -->
 
-    <div id="tienda">
+    <section id="section-tienda">
+        <div id="tienda">
 
-        <div class="container">
+            <div class="container">
 
-            <h2 class="title-merch">TIENDA</h2>
-
-            <div class="row">
-                <div class="col-12 col-md-4 py-3">
-                    <div class="card">
-                        <img src="img/disco_hastaelfinal.jpg" alt="card-1" class="card-img-top">
-                        <div class="card-body">
-                            <h5>Disco "Hasta el Final"</h5>
-                            <p class="stock">En Stock</p>
-                            <h6><b>Montevideo</b> - $430 (Incluye envío) </h6>
-                            <h6 class="pb-2"><b>Interior</b> - $520 (Incluye envío) </h6>
-                            <button type="button" class="btn btn-primary btn-merch" data-toggle="modal"
-                                data-target="#exampleModal"> <i class="fas fa-shopping-cart"></i> Comprar
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-4 py-3">
-                    <div class="card">
-                        <img src="img/remeras.jpg" alt="card-1" class="card-img-top">
-                        <div class="card-body">
-                            <h5>Remera Calavera</h5>
-                            <a href="#bg-contact">
-                                <p class="out-stock">Consultar Stock</p>
-                            </a>
-                            <h6><b>Montevideo</b> - $530 (Incluye envío) </h6>
-                            <h6 class="pb-2"><b>Interior</b> - $620 (Incluye envío) </h6>
-                            <button type="button" class="btn btn-primary btn-merch" data-toggle="modal"
-                                data-target="#exampleModal2"> <i class="fas fa-shopping-cart"></i> Comprar
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 py-3">
-                    <div class="card">
-                        <img src="img/remera_logo.jpg" alt="card-1" class="card-img-top">
-                        <div class="card-body">
-                            <h5>Remera Logo</h5>
-                            <a href="#bg-contact">
-                                <p class="out-stock">Consultar Stock</p>
-                            </a>
-
-                            <h6><b>Montevideo</b> - $530 (Incluye envío) </h6>
-                            <h6 class="pb-2"><b>Interior</b> - $620 (Incluye envío) </h6>
-                            <button type="button" class="btn btn-primary btn-merch" data-toggle="modal"
-                                data-target="#exampleModal3"> <i class="fas fa-shopping-cart"></i> Comprar
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- CÓMO COMPRAR -->
-
-        <div class="container">
-
-            <div class=" card pasos-compra">
-
-                <h5 class="title-pasos"> <b>¿CÓMO HAGO PARA COMPRAR?</b> </h5>
+                <h2 class="title-merch">TIENDA</h2>
 
                 <div class="row">
-                    <div class="col-md-4">
-                        <p>
-                            1. Depositá el total de tu compra en la cuenta <b>BROU PESOS Nº
-                                001353908-00001</b> y guardá el comprobante de depósito.
-                        </p>
+                    <div class="col-12 col-md-4 py-3">
+                        <div class="card">
+                            <img src="img/disco_hastaelfinal.jpg" alt="card-1" class="card-img-top">
+                            <div class="card-body">
+                                <h5>Disco "Hasta el Final"</h5>
+                                <p class="stock">En Stock</p>
+                                <h6><b>Montevideo</b> - $430 (Incluye envío) </h6>
+                                <h6 class="pb-2"><b>Interior</b> - $520 (Incluye envío) </h6>
+                                <button type="button" class="btn btn-primary btn-merch" data-toggle="modal"
+                                    data-target="#exampleModal"> <i class="fas fa-shopping-cart"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4">
 
-                        <p>
-                            2. Hacé click en el botón <b>"Comprar"</b> y completá el formulario. No olvides
-                            subir la
-                            <b>foto</b> o el <b>archivo</b> del comprobante de depósito.
-                        </p>
-
+                    <div class="col-12 col-md-4 py-3">
+                        <div class="card">
+                            <img src="img/remeras.jpg" alt="card-1" class="card-img-top">
+                            <div class="card-body">
+                                <h5>Remera Calavera</h5>
+                                <a href="#bg-contact">
+                                    <p class="out-stock">Consultar Stock</p>
+                                </a>
+                                <h6><b>Montevideo</b> - $530 (Incluye envío) </h6>
+                                <h6 class="pb-2"><b>Interior</b> - $620 (Incluye envío) </h6>
+                                <button type="button" class="btn btn-primary btn-merch" data-toggle="modal"
+                                    data-target="#exampleModal2"> <i class="fas fa-shopping-cart"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-12 col-md-4 py-3">
+                        <div class="card">
+                            <img src="img/remera_logo.jpg" alt="card-1" class="card-img-top">
+                            <div class="card-body">
+                                <h5>Remera Logo</h5>
+                                <a href="#bg-contact">
+                                    <p class="out-stock">Consultar Stock</p>
+                                </a>
 
-
-                        <p>
-                            3. ¡Listo! ¡En <b>menos de 24h.</b> nos contactamos contigo para definir la entrega!
-                            <b>Enviamos a todo Uruguay 😎</b>
-                        </p>
-
+                                <h6><b>Montevideo</b> - $530 (Incluye envío) </h6>
+                                <h6 class="pb-2"><b>Interior</b> - $620 (Incluye envío) </h6>
+                                <button type="button" class="btn btn-primary btn-merch" data-toggle="modal"
+                                    data-target="#exampleModal3"> <i class="fas fa-shopping-cart"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
+            <!-- CÓMO COMPRAR -->
+
+            <div class="container">
+
+                <div class="card pasos-compra">
+
+                    <h5 class="title-pasos"> <b>¿CÓMO HAGO PARA COMPRAR?</b> </h5>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p>
+                                1. Depositá el total de tu compra en la cuenta <b>BROU PESOS Nº
+                                    001353908-00001</b> y guardá el comprobante de depósito.
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+
+                            <p>
+                                2. Hacé click en el botón <b>"Comprar"</b> y completá el formulario. No olvides
+                                subir la
+                                <b>foto</b> o el <b>archivo</b> del comprobante de depósito.
+                            </p>
+
+                        </div>
+                        <div class="col-md-4">
+
+
+                            <p>
+                                3. ¡Listo! ¡En <b>menos de 24h.</b> nos contactamos contigo para definir la entrega!
+                                <b>Enviamos a todo Uruguay 😎</b>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
+    </section>
 
-
-    </div>
 
     <!-- MODAL -->
 
@@ -353,7 +392,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">¡Gracias por el apoyo!</h5>
+                    <h5 class="modal-title" id="exampleModalLabel_disco">¡Gracias por el apoyo!</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -394,9 +433,9 @@
                             <input name="direccion" type="text" aria-label="First name" class="form-control" required>
                         </div>
                         <div class="custom-file">
-                            <input name="comprobante" type="file" class="custom-file-input" id="inputGroupFile01"
-                                aria-describedby="inputGroupFileAddon01" required>
-                            <label class="custom-file-label" for="inputGroupFile01">Subir comprobante de
+                            <input name="comprobante" type="file" class="custom-file-input" id="comprobante-disco"
+                                aria-describedby="comprobante-disco" required>
+                            <label class="custom-file-label" for="comprobante-disco">Subir comprobante de
                                 compra</label>
                         </div>
                     </form>
@@ -425,7 +464,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">¡Gracias por el apoyo!</h5>
+                    <h5 class="modal-title" id="exampleModalLabel_remera1">¡Gracias por el apoyo!</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -467,9 +506,9 @@
                         </div>
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
-                                <label class="input-group-text" for="inputGroupSelect01">Talle</label>
+                                <label class="input-group-text" for="input-talle">Talle</label>
                             </div>
-                            <select name="talle" class="custom-select" id="inputGroupSelect01" required>
+                            <select name="talle" class="custom-select" id="input-talle" required>
                                 <option value="">Elegir...</option>
                                 <option value="S">S</option>
                                 <option value="M">M</option>
@@ -479,9 +518,9 @@
                             </select>
                         </div>
                         <div class="custom-file">
-                            <input name="comprobante" type="file" class="custom-file-input" id="inputGroupFile01"
-                                aria-describedby="inputGroupFileAddon01" required>
-                            <label class="custom-file-label" for="inputGroupFile01">Subir comprobante de
+                            <input name="comprobante" type="file" class="custom-file-input" id="comprobante-calavera"
+                                aria-describedby="comprobante-calavera" required>
+                            <label class="custom-file-label" for="comprobante-calavera">Subir comprobante de
                                 compra</label>
                         </div>
                     </form>
@@ -511,7 +550,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">¡Gracias por el apoyo!</h5>
+                    <h5 class="modal-title" id="exampleModalLabel_remera2">¡Gracias por el apoyo!</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -553,9 +592,9 @@
                         </div>
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
-                                <label class="input-group-text" for="inputGroupSelect01">Talle</label>
+                                <label class="input-group-text" for="input-talle2">Talle</label>
                             </div>
-                            <select name="talle" class="custom-select" id="inputGroupSelect01" required>
+                            <select name="talle" class="custom-select" id="input-talle2" required>
                                 <option value="">Elegir...</option>
                                 <option value="S">S</option>
                                 <option value="M">M</option>
@@ -565,9 +604,9 @@
                             </select>
                         </div>
                         <div class="custom-file">
-                            <input name="comprobante" type="file" class="custom-file-input" id="inputGroupFile01"
-                                aria-describedby="inputGroupFileAddon01" required />
-                            <label class="custom-file-label" for="inputGroupFile01">Subir comprobante de
+                            <input name="comprobante" type="file" class="custom-file-input" id="comprobante-logo"
+                                aria-describedby="comprobante-logo" required />
+                            <label class="custom-file-label" for="comprobante-logo">Subir comprobante de
                                 compra
                             </label>
                         </div>
@@ -671,25 +710,7 @@
 
         <!-- Copyright -->
 
-
     </footer>
-
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <!-- JS de Popper.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-
-    <!-- JS de Bootstrap -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-
-
-    <!-- JS Propio -->
-    <script src="js/app.js"> </script>
 
 </body>
 

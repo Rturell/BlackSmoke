@@ -1,16 +1,16 @@
 
 //////EFECTO LOGO MENÚ////
 
-$('.js-logo-menu').hide();
+// $('.js-logo-menu').hide();
 
-$(window).scroll(function () {
-    if ($(this).scrollTop() > 150) {
-        $('.js-logo-menu').fadeIn();
-    }
-    if ($(this).scrollTop() < 150) {
-        $('.js-logo-menu').fadeOut();
-    }
-});
+// $(window).scroll(function () {
+//     if ($(this).scrollTop() > 150) {
+//         $('.js-logo-menu').fadeIn();
+//     }
+//     if ($(this).scrollTop() < 150) {
+//         $('.js-logo-menu').fadeOut();
+//     }
+// });
 
 
 //////VALIDACIÓN E-MAIL DE NEWSLETTER///// 
