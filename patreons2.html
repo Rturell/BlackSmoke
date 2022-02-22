@@ -35,18 +35,41 @@
     <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
     </link>
 
+    <!-- SCRIPTS -->
+    
     <!-- ScrollReveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-
+    <script src="https://unpkg.com/scrollreveal" defer></script>
+    
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal" defer></script>
+    
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-53848737-1"></script>
-    <script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-53848737-1" defer></script>
+    <script defer>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'UA-53848737-1');
     </script>
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous" defer></script>
+    
+    <!-- JS de Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"
+        defer></script>
+    
+    <!-- JS de Bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"
+        defer></script>
+    
+    
+    <!-- JS Propio -->
+    <script src="js/app.js" defer></script>
 
 </head>
 
@@ -175,7 +198,7 @@
     <footer class="page-footer font-small pt-4 footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 mb-4">
+                <div class="col-md-6 mb-4">
                     <p>¡Seguinos en nuestras redes!</p>
                     <p>
                         <a class="a-redes" href="https://www.facebook.com/blacksmoke.com.uy/" target="blank"
@@ -190,15 +213,7 @@
                             rel="noopener noreferrer"><i class="fab fa-spotify fa-fw fa-lg"></i></a>
 
                 </div>
-
-                <div class="col-md-4 mb-4">
-                    <p class="mb-2">¿Querés apoyar lo que hacemos?</p>
-                    <a href="https://www.buymeacoffee.com/blacksmoke" target="blank"><img class="bmc"
-                            src="img/BMC logo+wordmark - White.svg" alt="Buy me a Cofee link"></a>
-
-                </div>
-
-                <div class="col-md-4 mb-4">
+                <div class="col-md-6 mb-4">
                     <p>¡Suscribite a nuestro newsletter!</p>
                     <form name="newsletter" action="newsletter-exito.html" class="input-group" netlify>
                         <input id="newsletter" name="newsletter" type="email" class="form-control form-control-sm"
