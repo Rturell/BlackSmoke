@@ -50,8 +50,8 @@ html {
 }
 
 .logo-bio {
-    margin-top: 10rem;
-    margin-bottom: 2rem;
+    margin-top: 7rem;
+    margin-bottom: 1rem;
     width: 70%;
     height: auto;
 }
@@ -66,6 +66,14 @@ html {
     position: absolute;
     bottom: 60px;
     right: 60px;
+    display: none;
+}
+
+@media (min-width: 1200px) {
+
+    .redes {
+        display: block;
+    }
 }
 /***********************************************************
 ********************MUSIC**********************************/
@@ -435,7 +443,7 @@ a:hover {
 
 body {
     font-family: 'Libre Franklin',
-    sans-serif;
+        sans-serif;
 }
 
 #patreons {
@@ -465,4 +473,3 @@ body {
     padding: 4rem 0rem 4rem 0rem;
     background-color: white;
 }
-
