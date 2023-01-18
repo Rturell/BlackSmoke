@@ -92,6 +92,11 @@ sr.reveal('.title-album2', {
     distance: '100px',  
 });
 
+sr.reveal('.js-digital-btn', {
+    origin: 'left',
+    distance: '100px',
+});
+
 sr.reveal('.card', {
 });
 
