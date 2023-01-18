@@ -25,6 +25,8 @@ html {
 
 .nav-link {
     font-size: 1rem;
+    text-transform: uppercase;
+    margin-left: 10px;
 }
 
 
