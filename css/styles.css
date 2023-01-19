@@ -1,4 +1,3 @@
-
 /***********************************************************
 ------------------------GENRAL-------------------------------*/
 
@@ -30,9 +29,24 @@ html {
 
 .btn-primary:hover,
 .btn-primary:active,
-.btn-primary:focus
- {
+.btn-primary:focus {
     background-color: #100F11;
+}
+
+.btn-secondary {
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 0;
+}
+
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:focus {
+    background-color: #100F11;
+    border: 3px solid black;
 }
 
 .fa-shopping-cart {
@@ -101,6 +115,7 @@ html {
         display: block;
     }
 }
+
 /***********************************************************
 ********************MUSIC**********************************/
 
@@ -174,7 +189,7 @@ html {
 ********************SHOWS***********************************/
 
 #bg-shows {
-    padding: 8rem 0;
+    padding: 8rem 0 0 0;
     background-color: rgb(16, 15, 17);
     text-align: center;
 }
@@ -190,68 +205,40 @@ html {
 /***********************************************************
 ********************MERCH**********************************/
 
-#tienda {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+#section-tienda {
+    text-align: center;
+    color: white;
+    background-image: url(../img/merch-background.png);
     background-color: white;
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8rem;
 }
 
-.title-merch {
-    padding-bottom: 1rem;
-    font-size: 40px;
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.merch-title {
+    font-size: 3.5rem;
     font-family: 'Playfair Display', serif;
     letter-spacing: 0.5rem;
-    text-align: center;
 }
 
-.title-pasos {
-    color: #912F2F;
-    margin-bottom: 1rem;
-}
-
-.pasos-compra {
+.merch-text {
+    font-size: 1.2rem;
+    max-width: 550px;
     margin: auto;
-    margin-top: 2rem;
-    padding: 3rem;
 }
 
 .btn-merch {
-    background-color: #912F2F;
-    border: none;
-    border-radius: 0;
-    padding: 10px 0;
-    width: 100%;
-    margin-top: 20px;
-    letter-spacing: 1px;
-}
-
-.btn-merch:hover {
-    background-color: black;
-    color: white;
-}
-
-.btn-news:hover {
-    background-color: transparent;
-    border: 1px solid #912F2F;
-    color: #912F2F;
-}
-
-.stock {
-    color: green;
-}
-
-.out-stock {
-    color: #912F2F;
-}
-
-.card {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-}
-
-.como-comprar {
-    max-width: 900px;
-    margin: auto;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding: 1rem 1rem;
+    letter-spacing: 2px;
 }
 
 /***********************************************************
