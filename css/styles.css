@@ -459,6 +459,45 @@ h1 {
 }
 
 /***********************************************************
+********************FOTOS**********************************/
+
+#fotos {
+    padding: 80px 0;
+    background-color: black;
+}
+
+.fotos-title {
+    color: black;
+    font-size: 3.5rem;
+    font-family: 'Playfair Display',
+    serif;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.fotos-text {
+    text-align: left;
+}
+
+.btn:focus,
+.btn:active,
+button:focus,
+button:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#image-gallery .modal-footer {
+    display: block;
+}
+
+.thumb {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/***********************************************************
 ********************CONTACT*******************************/
 
 #contact {
