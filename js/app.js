@@ -1,16 +1,16 @@
-//////EFECTO LOGO MENÚ////
+$(function () {
+    $("#toggle").click(function () {
+        $(".mobile-menu").toggleClass('active');
+    });
 
-// $('.js-logo-menu').hide();
+    $(".mobile-link").click(function () {
 
-// $(window).scroll(function () {
-//     if ($(this).scrollTop() > 150) {
-//         $('.js-logo-menu').fadeIn();
-//     }
-//     if ($(this).scrollTop() < 150) {
-//         $('.js-logo-menu').fadeOut();
-//     }
-// });
+        $(".mobile-menu").removeClass('active');
+        $('input[name=toggle-checkbox]').attr('checked', false);
 
+    });
+
+});
 
 //////VALIDACIÓN E-MAIL DE NEWSLETTER///// 
 
@@ -42,7 +42,7 @@ $('#newsletter').keyup(function (e) {
 ///ESCONDER MENÚ AL HACER CLICK///
 
 $(document).on('click', function () {
-    $('.collapse').collapse('hide');
+    $('.mobile-menu').collapse('hide');
 })
 
 
@@ -99,23 +99,3 @@ sr.reveal('.js-digital-btn', {
 });
 
 sr.reveal('.card', {});
-
-///CAMBIAR PLACEHOLDER AL SUBIR ARCHIVO///
-
-$("[type=file]").on("change", function () {
-    // Name of file and placeholder
-    var file = this.files[0].name;
-    var dflt = $(this).attr("placeholder");
-    if ($(this).val() != "") {
-        $(this).next().text(file);
-    } else {
-        $(this).next().text(dflt);
-    }
-});
-
-
-$(function () {
-    $("#toggle").click(function () {
-        $(".mobile-menu").toggleClass('active');
-    });
-});
