@@ -267,8 +267,9 @@ html {
 
     .videoInsert {
         position: absolute;
-        right: 0;
-        top: 0px;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -50%);
         min-width: 100vh;
         min-height: 100%;
         width: auto;
