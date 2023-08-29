@@ -239,7 +239,58 @@ html {
 
 }
 
+/***********************************************************
+-------------------DONATION---------------------------*/
 
+.d-container {
+    position: relative;
+    z-index: 999;
+}
+
+.d-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 100%;
+    max-width: 700px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.d-card h3 {
+    margin-bottom: 20px;
+    color: #912F2F;
+}
+
+.d-card p {
+    font-size: 16px;
+}
+
+.d-card a {
+    text-decoration: none;
+}
+
+.d-card .close {
+    cursor: pointer;
+}
+
+.btn-donation {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #912F2F;
+    border: 1px solid #912F2F;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-donation:hover {
+    background-color: transparent;
+    color: #912F2F;
+}
 
 /***********************************************************
 -------------------VIDEO SECTION---------------------------*/
