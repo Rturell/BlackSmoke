@@ -45,10 +45,11 @@ $(document).on('click', function () {
     $('.mobile-menu').collapse('hide');
 })
 
-///ESCONDER DONATION///
-$('#close').on('click', function () {
-    $('#d-container').hide();
-})
+///MOSTRAR MODAL DONATION///
+
+$(window).on('load', function () {
+    $('#myModal').modal('show');
+});
 
 ///SCROLL REVEAL /// 
 
