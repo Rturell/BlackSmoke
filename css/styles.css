@@ -367,6 +367,10 @@ h1 {
     color: white;
 }
 
+.text-bio a {
+    color: #912F2F;
+}
+
 .redes {
     position: absolute;
     bottom: 60px;
