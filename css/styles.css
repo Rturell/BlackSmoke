@@ -277,16 +277,22 @@ html {
 .can-img {
     text-align: center;
     margin: auto;
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
 @media (min-width: 768px) {
 
     .can-img {
-        width: 70%;
+        width: 50%;
     }
+}
 
+@media (min-width: 992px) {
+
+    .can-img {
+        width: 80%;
+    }
 }
 
 .d-paypal {
