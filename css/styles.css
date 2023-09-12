@@ -651,6 +651,7 @@ a:hover {
     background-image: url(../img/imagenhome.jpg);
     background-size: cover;
     background-position: center;
+    height: 100%;
     text-align: center;
     padding-top: 4rem;
     padding-bottom: 17rem;
