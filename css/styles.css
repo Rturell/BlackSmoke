@@ -3,11 +3,8 @@
 
 html {
     scroll-behavior: smooth;
+    height: 100%;
 }
-
-/* body {
-    margin-top: 70px;
-} */
 
 .index {
     margin-top: 55px;
@@ -84,10 +81,14 @@ html {
     font-weight: 800;
 }
 
-.active {
+.mobile-menu.active {
     display: flex;
     align-items: center;
 }
+
+ .overflow-hidden {
+    overflow: hidden;
+ }
 
 .nav-bg {
     position: fixed;
@@ -347,7 +348,7 @@ html {
     background-color: black;
     display: flex;
     align-items: center;
-    padding: 5rem 0 8rem 0;
+    padding: 4rem 0 4rem 0;
 }
 
 h1 {
@@ -616,9 +617,6 @@ a:hover {
 
 
 @media (max-width: 767px) {
-    #bg-img {
-        height: 670px;
-    }
 
     .disc1 {
         height: 290px;
