@@ -829,3 +829,7 @@ body {
     padding: 4rem 0rem 4rem 0rem;
     background-color: white;
 }
+
+#top_patreons .d-link {
+    color: rgb(197, 38, 38);
+}
