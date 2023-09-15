@@ -574,6 +574,16 @@ form {
     color: #818080;
 }
 
+.d-footer {
+    color: white;
+}
+
+.d-footer:hover {
+    text-decoration: underline;
+    color: wheat;
+}
+
+
 /***********************************************************
 ********************BUTTONS AND LINKS************************/
 
