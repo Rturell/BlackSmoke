@@ -55,6 +55,38 @@ html {
 }
 
 /***********************************************************
+------------------------Banner-----------------------------*/
+
+.banner {
+    background-color: #912F2F;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.banner p {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.banner a {
+    color: white;
+}
+
+.banner a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+
+    .banner p {
+        font-size: 15px;
+    }
+
+}
+
+/***********************************************************
 ------------------------NAV-------------------------------*/
 
 .mobile-menu {
@@ -86,9 +118,9 @@ html {
     align-items: center;
 }
 
- .overflow-hidden {
+.overflow-hidden {
     overflow: hidden;
- }
+}
 
 .nav-bg {
     position: fixed;
@@ -147,6 +179,21 @@ html {
     align-items: center;
     gap: 50px;
     color: white;
+}
+
+@media (min-width: 992px) {
+
+    .nav-links ul {
+        gap: 30px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .nav-links ul {
+        gap: 50px;
+    }
 }
 
 .nav-links ul li {
@@ -246,6 +293,7 @@ html {
 .modal-body {
     padding: 30px;
 }
+
 .modal-body h3 {
     margin-bottom: 20px;
     color: #912F2F;
@@ -306,6 +354,19 @@ html {
 
 /***********************************************************
 -------------------VIDEO SECTION---------------------------*/
+
+#section-home {
+    margin-top: 97px;
+    /* cuando hay banner*/
+}
+
+@media (min-width: 992px) {
+
+    #section-home {
+        margin-top: 114px;
+    }
+
+}
 
 .video-container {
     display: none;
@@ -738,6 +799,18 @@ a:hover {
 /***********************************************************
 ********************PHOTOS*******************************/
 
+.gallery-container {
+    margin-top: 97px;
+}
+
+@media (min-width: 992px) {
+
+    .gallery-container {
+        margin-top: 114px;
+    }
+
+}
+
 .gallery {
     background-color: black;
     display: flex;
@@ -801,6 +874,14 @@ a:hover {
 
 #videos {
     background-color: black;
+    margin-top: 97px;
+}
+
+@media (min-width: 992px) {
+
+    #videos {
+        margin-top: 114px;
+    }
 }
 
 /***********************************************************
